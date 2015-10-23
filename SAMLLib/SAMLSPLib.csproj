@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enum.cs" />
+    <Compile Include="ExampleUsage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RequestBuilders\AuthRequestBuilder.cs" />
     <Compile Include="RequestBuilders\LogoutRequestBuilder.cs" />
@@ -48,6 +50,7 @@
     <Compile Include="SAMLSettings.cs" />
     <Compile Include="Utils\Base64Encoder.cs" />
     <Compile Include="Utils\CertificateHelper.cs" />
+    <Compile Include="Utils\SAMLResponseHelper.cs" />
     <Compile Include="Utils\SigningXMLHelper.cs" />
   </ItemGroup>
   <ItemGroup />
